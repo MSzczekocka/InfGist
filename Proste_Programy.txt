@@ -1,0 +1,48 @@
+Zestaw 2
+Zad 1.
+        POB c
+        DOD a
+        LAD c
+        POB d
+        DOD b
+        LAD d
+p:      POB c
+        ODE d
+        SOZ kon
+        SOM plusa
+        SOB plusb
+plusa:  POB c
+        DOD a
+        LAD c
+        SOB p
+plusb:  POB d
+        DOD b
+        LAD d
+        SOB p
+kon:    POB d
+        STP
+a:      RST 12
+b:      RST 5
+c:      RST 0
+d:      RST 0
+
+Zad 2.
+
+Rozkaz: POB Tab
+        SOZ kon
+        POB n
+        DOD Jeden
+        LAD n
+        POB Rozkaz
+        DOD Jeden
+        LAD Rozkaz
+        SOB Rozkaz 
+kon:    POB n
+        STP 
+n:      RST 1
+Tab:    RST 0
+        RST 11
+        RST -10
+        RST 7
+        RST 0
+Jeden:  RST 1  
